@@ -1,0 +1,14 @@
+CLONE & STATUS :
+manish@Manishs-MacBook-Pro Git and GitHub % git clone https://github.com/ManishShettigar253/Git_Practice.git
+Cloning into 'Git_Practice'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+manish@Manishs-MacBook-Pro Git and GitHub % cd Git_practice
+manish@Manishs-MacBook-Pro Git_practice % git status     
+On branch main
+Your branch is up to date with 'origin/main'.
+
+4types of status : untracked, modified, staged, unmodified

@@ -1,0 +1,20 @@
+CONFIGURATION :
+manish@Manishs-MacBook-Pro bin % git config --global user.name "Manish"
+
+manish@Manishs-MacBook-Pro bin % git config --global user.email "manish253@ibm.com"
+
+manish@Manishs-MacBook-Pro bin % git config --get user.name
+Manish
+
+manish@Manishs-MacBook-Pro bin % git config --get user.email
+manish253@ibm.com
+
+manish@Manishs-MacBook-Pro bin % git config --list
+credential.helper=osxkeychain
+init.defaultbranch=main
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+user.name=Manish
+user.email=manish253@ibm.com

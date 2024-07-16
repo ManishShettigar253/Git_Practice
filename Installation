@@ -1,0 +1,15 @@
+INSTALLATION :
+
+manish@Manishs-MacBook-Pro bin % /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)”
+
+manish@Manishs-MacBook-Pro bin %  (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/manish/.zprofile
+
+manish@Manishs-MacBook-Pro bin % eval "$(/opt/homebrew/bin/brew shellenv)”
+
+manish@Manishs-MacBook-Pro bin % brew --version
+Homebrew 4.3.9
+
+manish@Manishs-MacBook-Pro bin % brew install git
+
+manish@Manishs-MacBook-Pro bin % git --version
+git version 2.39.3 (Apple Git-146)

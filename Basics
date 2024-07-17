@@ -1,0 +1,8 @@
+BASIC :
+
+Go to Project file  -> Right click -> Git bash
+git init
+git add .
+git commit -m "some msg"
+git remote add origin repolink
+git push -u origin branchname

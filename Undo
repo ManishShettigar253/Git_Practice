@@ -1,0 +1,89 @@
+UNDO Changes:
+
+
+
+manish@manishs-mbp Git_practice % git reset
+manish@manishs-mbp Git_practice % git status
+On branch newFeature
+nothing to commit, working tree clean
+
+
+manish@manishs-mbp Git_practice % git reset head~1
+Unstaged changes after reset:
+M       Branch
+manish@manishs-mbp Git_practice % git status
+On branch newFeature
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Branch
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Undo
+
+no changes added to commit (use "git add" and/or "git commit -a")
+manish@manishs-mbp Git_practice % git log
+commit 73a44435edd042a18afcd8654255783a443e43ec (HEAD -> newFeature)
+Author: Manish <manish253@ibm.com>
+Date:   Wed Jul 17 10:47:21 2024 +0530
+
+     merged main and new feature
+
+commit e17ecd23a23fae8fdec0f08cea02d998d9f7a5bd (origin/main, origin/HEAD, main)
+Author: Manish <manish253@ibm.com>
+Date:   Wed Jul 17 10:26:30 2024 +0530
+
+    added
+
+commit 55454ecf7ae9c6366fa8344d224781923a24604c
+Author: Manish <manish253@ibm.com>
+Date:   Tue Jul 16 22:40:44 2024 +0530
+
+    install file added
+
+commit 536954ab570f4a7ce794a26a2089f126703de0c7
+Author: Manish <manish253@ibm.com>
+Date:   Tue Jul 16 22:11:39 2024 +0530
+
+    install file added
+
+commit cbf537009f602319c2a7533ce41089aee48817ef
+:
+ *  History restored 
+
+manish@manishs-mbp Git_Practice % git reset 536954ab570f4a7ce794a26a2089f126703de0c7
+Unstaged changes after reset:
+M       Installation
+manish@manishs-mbp Git_Practice % git status
+On branch newFeature
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Installation
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .DS_Store
+        AddAndCommitAndPush
+        Basics
+        Branch
+        CloneAndStatus
+        Configuration
+        Init
+        Pull
+        Undo
+
+no changes added to commit (use "git add" and/or "git commit -a")
+manish@manishs-mbp Git_Practice % git log
+commit 536954ab570f4a7ce794a26a2089f126703de0c7 (HEAD -> newFeature)
+Author: Manish <manish253@ibm.com>
+Date:   Tue Jul 16 22:11:39 2024 +0530
+
+    install file added
+
+commit cbf537009f602319c2a7533ce41089aee48817ef
+Author: Manish <142647718+ManishShettigar253@users.noreply.github.com>
+Date:   Tue Jul 16 21:58:34 2024 +0530
+
+    Initial commit

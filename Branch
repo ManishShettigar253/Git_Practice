@@ -1,0 +1,44 @@
+BRANCH :
+
+manish@Manishs-MacBook-Pro Git_Init_Demo % git branch
+* master
+
+manish@Manishs-MacBook-Pro Git_Init_Demo % git branch -M main
+manish@Manishs-MacBook-Pro Git_Init_Demo % git branch
+* main
+
+manish@Manishs-MacBook-Pro Git_Init_Demo % git checkout -b feature1
+Switched to a new branch 'feature1'
+manish@Manishs-MacBook-Pro Git_Init_Demo % git branch
+* feature1
+  main
+
+manish@Manishs-MacBook-Pro Git_Init_Demo % git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/master'.
+manish@Manishs-MacBook-Pro Git_Init_Demo % git branch
+  feature1
+* main
+
+manish@Manishs-MacBook-Pro Git_Init_Demo % git checkout -b feature2
+Switched to a new branch 'feature2'
+manish@Manishs-MacBook-Pro Git_Init_Demo % git branch
+  feature1
+* feature2
+  main
+
+manish@Manishs-MacBook-Pro Git_Init_Demo % git branch -d feature1 
+Deleted branch feature1 (was b619521).
+manish@Manishs-MacBook-Pro Git_Init_Demo % git branch
+* feature2
+  main
+
+manish@Manishs-MacBook-Pro Git_Init_Demo % git status
+On branch feature2
+nothing to commit, working tree clean
+
+manish@Manishs-MacBook-Pro Git_Init_Demo % git branch
+* feature2
+  main
+manish@Manishs-MacBook-Pro Git_Init_Demo % git diff main
+manish@Manishs-MacBook-Pro Git_

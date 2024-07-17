@@ -1,0 +1,18 @@
+4. ADD & COMMIT & PUSH:
+
+manish@Manishs-MacBook-Pro Git_practice % git add .      
+
+manish@Manishs-MacBook-Pro Git_practice % git commit -m "install file added"
+[main 536954a] install file added
+ 1 file changed, 15 insertions(+)
+ create mode 100644 Installation
+
+manish@Manishs-MacBook-Pro Git_practice % git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 532 bytes | 532.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/ManishShettigar253/Git_Practice.git
+   cbf5370..536954a  main -> main

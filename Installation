@@ -1,4 +1,4 @@
-INSTALLATION :
+1. INSTALLATION :
 
 manish@Manishs-MacBook-Pro bin % /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)”
 

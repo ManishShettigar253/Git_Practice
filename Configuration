@@ -1,4 +1,4 @@
-CONFIGURATION :
+2. CONFIGURATION :
 manish@Manishs-MacBook-Pro bin % git config --global user.name "Manish"
 
 manish@Manishs-MacBook-Pro bin % git config --global user.email "manish253@ibm.com"
